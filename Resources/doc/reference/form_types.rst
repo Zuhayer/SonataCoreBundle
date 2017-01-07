@@ -500,10 +500,9 @@ In order to use it, you'll need to perform a bit of setup:
 
         # app/config/config.yml
         twig:
-            form:
-                resources:
-                    - 'SonataCoreBundle:Form:colorpicker.html.twig'
-
+            form_themes:
+                - 'SonataCoreBundle:Form:colorpicker.html.twig'
+        
 Finally, in your form, you may use the form type as follows:
 
 .. code-block:: php
